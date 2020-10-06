@@ -91,7 +91,7 @@ public class LinkedListDeque <T> {
         if(index >= size){
             return null;
         }
-        ListNode temp = sentinel.next;
+        ListNode temp = sentinel;
         for(int i = 0; i < size; i++){
             temp = temp.next;
         }
