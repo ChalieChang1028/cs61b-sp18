@@ -92,7 +92,7 @@ public class LinkedListDeque <T> {
             return null;
         }
         ListNode temp = sentinel;
-        for(int i = 0; i < size; i++){
+        for(int i = 0; i < index; i++){
             temp = temp.next;
         }
         return temp.item;
